@@ -198,6 +198,31 @@
     box-shadow: 0 4px 16px rgba(107,76,163,0.4);
     text-decoration: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .download-btn {
+    position: absolute;
+    top: 32px;
+    right: 50px;
+    background: var(--purple-faint);
+    color: var(--purple-light);
+    border: 1px solid var(--purple-light);
+    font-size: 8.5px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    border-radius: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 100;
+    transition: all 0.3s ease;
+  }
+
+  .download-btn:hover {
+    background: var(--purple-light);
+    color: var(--cream);
   }
 
   /* ── ACCENT BAR ── */
@@ -628,6 +653,7 @@
       <div class="hero__eyebrow">Creator &nbsp;&middot;&nbsp; Speaker &nbsp;&middot;&nbsp; Life Lover</div>
       <div class="hero__name">M. Aurelius<br>Higgs</div>
       <div class="hero__title">Founder, ParentWise &nbsp;&middot;&nbsp; Author &nbsp;&middot;&nbsp; Educator</div>
+      <a href="speaker-one-sheet.pdf" download class="download-btn">Download PDF</a>
       <div class="hero__divider"></div>
       <div class="hero__tagline">Secure Parents, Secure Teens.<br>Secure Teens, Secure the Future.</div>
       <a href="https://tidycal.com/mhiggs/networking" target="_blank" class="hero__badge">Available to Book</a>
@@ -779,13 +805,13 @@
         </svg>
         linkedin.com/in/marcushiggs
       </a>
-      <a class="footer__item" href="https://speaker.marcushiggs.com">
+      <a class="footer__item" href="https://getparentwise.com">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="12" cy="12" r="10"/>
           <line x1="2" y1="12" x2="22" y2="12"/>
           <path d="M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/>
         </svg>
-        speaker.marcushiggs.com
+        getparentwise.com
       </a>
     </div>
     <div class="footer__logo">ParentWise</div>
